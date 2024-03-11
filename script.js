@@ -4,8 +4,8 @@ var save = $(".saveBtn");
 console.log(save);
 $("#currentDay").text(dayjs().format("dddd DD/MM/YYYY"));
 
-= localStorage.getItem("hour-1");                                   
-loopCss()
+localStorage.getItem("hour-9");
+loopCss();
 
 //     save to local storage
 $(".time-block").each(function () {
